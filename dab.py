@@ -127,6 +127,10 @@ def get_show():
 
 @module.commands('dab')
 def dab(bot, trigger):
+    """
+    Viser hva som sendes akkurat nå.
+    Gjør også en enkel feilsøking, og viser dersom den finner noe rart.
+    """
     for warning in debug():
         bot.say(warning)
     if scheduled_replay():

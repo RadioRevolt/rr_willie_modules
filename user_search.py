@@ -9,6 +9,11 @@ URL = 'https://bruker.smint.no/search/index.php'
 
 @module.commands('finn')
 def search_user(bot, trigger):
+    """
+    Bukes til å søke etter personer i Studentmediene
+    Du kan søke med navn, brukernavn, telefonnummer eller epost
+    Viser maksimat 7 resultater
+    """
     term = trigger.group(2).encode('utf-8')
 
     result = json.load(urllib2.urlopen(URL + '?s=' + urllib2.quote(term)))
