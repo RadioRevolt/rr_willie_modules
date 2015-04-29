@@ -1,6 +1,6 @@
 #Moduler skrevet for Radio Revolt
 
-All moduler som legges i /home/boyebn/.willie/modules blir automatisk lastet inn når willie starter. Dersom du har lagt inn en ny modul må du restarte willie. Du kan stoppe willie med ``willie -q`` eller med ``killall <pid>`` (du finner pid'en til willie i /home/boyebn/.willie/willie.pid).
+All moduler som legges i /home/boyebn/.willie/modules blir automatisk lastet inn når willie starter. Dersom du har lagt inn en ny modul må du restarte willie. Du kan stoppe willie med ``willie -q`` eller med ``kill <pid>`` (du finner pid'en til willie i /home/boyebn/.willie/willie.pid).
 
 ##dab.py
 Bruk: ``.dab``
