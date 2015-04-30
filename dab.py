@@ -136,7 +136,7 @@ def dab(bot, trigger):
     if scheduled_replay():
         bot.say(get_show())
     else:
-        get_show()
+        bot.say(get_show())
         studio = get_elements('studio')
         tekrom = get_elements('teknikerrom')
         if studio:
